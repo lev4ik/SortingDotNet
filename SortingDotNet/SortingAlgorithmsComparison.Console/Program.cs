@@ -22,7 +22,7 @@ namespace SortingAlgorithmsComparison.ConsoleApp
 
             for (int i = 0; i < Convert.ToInt32(arrsize); i++)
             {
-                int num = rand.Next(0, 10000);
+                int num = rand.Next(0, int.MaxValue);
                 arrToSort.Add(num);
             }
 
